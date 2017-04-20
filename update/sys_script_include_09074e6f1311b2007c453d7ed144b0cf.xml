@@ -27,14 +27,16 @@ this._hasher;e=d.finalize(e);d.reset();return d.finalize(this._oKey.clone().conc
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-03-10 16:10:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
         <sys_id>09074e6f1311b2007c453d7ed144b0cf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>CryptoJS</sys_name>
         <sys_package display_value="HMAC Encoding" source="x_hmac_encoding">bce6066f1311b2007c453d7ed144b0f8</sys_package>
         <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HMAC Encoding">bce6066f1311b2007c453d7ed144b0f8</sys_scope>
         <sys_update_name>sys_script_include_09074e6f1311b2007c453d7ed144b0cf</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-03-10 16:10:07</sys_updated_on>
+        <sys_updated_by>chris.hann</sys_updated_by>
+        <sys_updated_on>2017-04-20 01:23:01</sys_updated_on>
     </sys_script_include>
 </record_update>

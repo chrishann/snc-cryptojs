@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_hmac_encoding.HmacSHA1</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>HmacSHA1</name>
+        <script><![CDATA[var HmacSHA1 = Class.create();
+
+HmacSHA1.encode = function(data, key) {
+	return new HexToBase64().convertToBase64(CryptoJS.HmacSHA1(data, key));
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>chris.hann</sys_created_by>
+        <sys_created_on>2017-04-20 01:24:35</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>69450e2cdb1a3200a09c71910f9619cf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>HmacSHA1</sys_name>
+        <sys_package display_value="HMAC Encoding" source="x_hmac_encoding">bce6066f1311b2007c453d7ed144b0f8</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HMAC Encoding">bce6066f1311b2007c453d7ed144b0f8</sys_scope>
+        <sys_update_name>sys_script_include_69450e2cdb1a3200a09c71910f9619cf</sys_update_name>
+        <sys_updated_by>chris.hann</sys_updated_by>
+        <sys_updated_on>2017-04-20 01:27:54</sys_updated_on>
+    </sys_script_include>
+</record_update>
